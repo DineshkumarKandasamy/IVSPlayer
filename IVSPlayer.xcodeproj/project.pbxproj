@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DDC926603CBDE066D01F71 /* Pods_IVSPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106417E16342288B95F4CA57 /* Pods_IVSPlayer.framework */; };
+		A8BE877C2881CC18006AD343 /* IVSPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE877B2881CC18006AD343 /* IVSPlayerTableViewCell.swift */; };
+		A8ED43AC287E959B00A685A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ED43AB287E959B00A685A6 /* AppDelegate.swift */; };
+		A8ED43AE287E959B00A685A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ED43AD287E959B00A685A6 /* SceneDelegate.swift */; };
+		A8ED43B5287E959C00A685A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8ED43B4287E959C00A685A6 /* Assets.xcassets */; };
+		A8ED43B8287E959C00A685A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8ED43B6287E959C00A685A6 /* LaunchScreen.storyboard */; };
+		A8ED43C2287E962900A685A6 /* IVSPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ED43C1287E962900A685A6 /* IVSPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		106417E16342288B95F4CA57 /* Pods_IVSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9704BAF4E3BF15F658E24826 /* Pods-IVSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVSPlayer.release.xcconfig"; path = "Target Support Files/Pods-IVSPlayer/Pods-IVSPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		A8BE877B2881CC18006AD343 /* IVSPlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVSPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		A8ED43A8287E959B00A685A6 /* IVSPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVSPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8ED43AB287E959B00A685A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8ED43AD287E959B00A685A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8ED43B4287E959C00A685A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8ED43B7287E959C00A685A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8ED43B9287E959C00A685A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8ED43C1287E962900A685A6 /* IVSPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVSPlayerViewController.swift; sourceTree = "<group>"; };
+		EE5FB92951E5A607160CB18B /* Pods-IVSPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVSPlayer.debug.xcconfig"; path = "Target Support Files/Pods-IVSPlayer/Pods-IVSPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8ED43A5287E959B00A685A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDC926603CBDE066D01F71 /* Pods_IVSPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA19B49CE81E3823B757EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				106417E16342288B95F4CA57 /* Pods_IVSPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B1A1255FF10E54B5328EDE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE5FB92951E5A607160CB18B /* Pods-IVSPlayer.debug.xcconfig */,
+				9704BAF4E3BF15F658E24826 /* Pods-IVSPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8ED439F287E959B00A685A6 = {
+			isa = PBXGroup;
+			children = (
+				A8ED43AA287E959B00A685A6 /* IVSPlayer */,
+				A8ED43A9287E959B00A685A6 /* Products */,
+				6B1A1255FF10E54B5328EDE3 /* Pods */,
+				1AA19B49CE81E3823B757EA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8ED43A9287E959B00A685A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8ED43A8287E959B00A685A6 /* IVSPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8ED43AA287E959B00A685A6 /* IVSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A8ED43BF287E960700A685A6 /* AppDelegate */,
+				A8ED43C0287E961600A685A6 /* IVSPlayerViewController */,
+				A8ED43C3287E96B500A685A6 /* SupportingFiles */,
+			);
+			path = IVSPlayer;
+			sourceTree = "<group>";
+		};
+		A8ED43BF287E960700A685A6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8ED43AB287E959B00A685A6 /* AppDelegate.swift */,
+				A8ED43AD287E959B00A685A6 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A8ED43C0287E961600A685A6 /* IVSPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8ED43C1287E962900A685A6 /* IVSPlayerViewController.swift */,
+				A8BE877B2881CC18006AD343 /* IVSPlayerTableViewCell.swift */,
+			);
+			path = IVSPlayerViewController;
+			sourceTree = "<group>";
+		};
+		A8ED43C3287E96B500A685A6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A8ED43B9287E959C00A685A6 /* Info.plist */,
+				A8ED43B6287E959C00A685A6 /* LaunchScreen.storyboard */,
+				A8ED43B4287E959C00A685A6 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8ED43A7287E959B00A685A6 /* IVSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8ED43BC287E959C00A685A6 /* Build configuration list for PBXNativeTarget "IVSPlayer" */;
+			buildPhases = (
+				2EF60912C3680812A6825E7B /* [CP] Check Pods Manifest.lock */,
+				A8ED43A4287E959B00A685A6 /* Sources */,
+				A8ED43A5287E959B00A685A6 /* Frameworks */,
+				A8ED43A6287E959B00A685A6 /* Resources */,
+				88E11D8D7DACE44A1B4B9963 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IVSPlayer;
+			productName = IVSPlayer;
+			productReference = A8ED43A8287E959B00A685A6 /* IVSPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8ED43A0287E959B00A685A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A8ED43A7287E959B00A685A6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A8ED43A3287E959B00A685A6 /* Build configuration list for PBXProject "IVSPlayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8ED439F287E959B00A685A6;
+			productRefGroup = A8ED43A9287E959B00A685A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8ED43A7287E959B00A685A6 /* IVSPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8ED43A6287E959B00A685A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ED43B8287E959C00A685A6 /* LaunchScreen.storyboard in Resources */,
+				A8ED43B5287E959C00A685A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF60912C3680812A6825E7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IVSPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E11D8D7DACE44A1B4B9963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IVSPlayer/Pods-IVSPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IVSPlayer/Pods-IVSPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IVSPlayer/Pods-IVSPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8ED43A4287E959B00A685A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ED43AC287E959B00A685A6 /* AppDelegate.swift in Sources */,
+				A8BE877C2881CC18006AD343 /* IVSPlayerTableViewCell.swift in Sources */,
+				A8ED43C2287E962900A685A6 /* IVSPlayerViewController.swift in Sources */,
+				A8ED43AE287E959B00A685A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8ED43B6287E959C00A685A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8ED43B7287E959C00A685A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8ED43BA287E959C00A685A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8ED43BB287E959C00A685A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8ED43BD287E959C00A685A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5FB92951E5A607160CB18B /* Pods-IVSPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRP8335TC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IVSPlayer/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivsplayer.dk.IVSPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8ED43BE287E959C00A685A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9704BAF4E3BF15F658E24826 /* Pods-IVSPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRP8335TC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IVSPlayer/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivsplayer.dk.IVSPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8ED43A3287E959B00A685A6 /* Build configuration list for PBXProject "IVSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ED43BA287E959C00A685A6 /* Debug */,
+				A8ED43BB287E959C00A685A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8ED43BC287E959C00A685A6 /* Build configuration list for PBXNativeTarget "IVSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ED43BD287E959C00A685A6 /* Debug */,
+				A8ED43BE287E959C00A685A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8ED43A0287E959B00A685A6 /* Project object */;
+}
